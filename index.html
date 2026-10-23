@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Information about zinbot, a private, personal-use assistant powered by Hermes.">
+  <title>zinbot | Personal Assistant</title>
+  <style>
+    :root { color-scheme: light; --paper: #f5f2e9; --ink: #24362e; --rule: #c5cfc2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: linear-gradient(135deg, #e8eddf, var(--paper) 55%); font: 1.125rem/1.7 Georgia, 'Times New Roman', serif; }
+    main { max-width: 46rem; margin: 6vh auto; padding: clamp(1.4rem, 5vw, 3.5rem); }
+    header { border-top: .35rem solid var(--ink); padding-top: 1.5rem; }
+    .eyebrow, footer { font: .85rem/1.6 'Courier New', monospace; }
+    .eyebrow { letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: .5rem 0; font-size: clamp(3rem, 10vw, 5rem); line-height: 1.05; font-weight: 400; }
+    h2 { margin-top: 2rem; font-size: 1.5rem; }
+    a { color: inherit; text-underline-offset: .2em; }
+    a:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Private software / Public information</p>
+      <h1>zinbot</h1>
+      <p>A personal-use assistant powered by Hermes, operated for its owner's own accounts and everyday work.</p>
+    </header>
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">What the assistant does</h2>
+      <p>With the owner's explicit Google authorization, the assistant can retrieve and summarize email, find and read selected Drive files, read Google Docs and Sheets, and help manage calendar events.</p>
+      <p>The personal Google connection uses read-only Gmail, Drive, Docs and Sheets access. Calendar access permits the owner's requested event edits. The personal connection does not request permission to send email.</p>
+    </section>
+    <section aria-labelledby="access">
+      <h2 id="access">A private application, not a public service</h2>
+      <p>The assistant itself runs on owner-controlled computers. This website contains only public app information. It has no sign-in form, account connection, API, analytics, or access to the assistant or Google account data.</p>
+      <p>See the <a href="privacy.html">privacy policy</a> for data use, storage, revocation and contact information.</p>
+    </section>
+    <footer>Personal-use application. Not affiliated with or endorsed by Google or Nous Research.</footer>
+  </main>
+</body>
+</html>
